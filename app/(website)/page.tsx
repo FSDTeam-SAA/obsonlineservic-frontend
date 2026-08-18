@@ -12,7 +12,12 @@ import { Reveal } from "@/components/reveal";
 export default function HomePage() {
   return (
     <div className="booking-home space-y-[10px]">
-      <Hero />
+      <Hero 
+      title1={"Escape to Your Perfect"}
+      title2={" Holiday Retreat"}
+      description={` Discover premium holiday parks and luxury accommodations across Europe with seamless online booking.`} 
+      img={"/images/HomeHero.png"}
+      />
       <Reveal><FeaturedDestinations /></Reveal>
       <Reveal delay={40}><FeaturedHolidayParks /></Reveal>
       <Reveal delay={40}><PopularHolidayProperties /></Reveal>

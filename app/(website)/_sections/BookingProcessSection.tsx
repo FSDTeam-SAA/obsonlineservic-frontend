@@ -65,7 +65,7 @@ export default function BookingProcessSection({
   data = bookingProcessData,
 }: BookingProcessProps) {
   return (
-    <section className="w-full bg-[#F3F6FA] py-20 px-4 sm:px-6 lg:px-8 font-sans">
+    <section id="booking" className="w-full bg-[#F3F6FA] py-20 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-14">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto space-y-2.5">

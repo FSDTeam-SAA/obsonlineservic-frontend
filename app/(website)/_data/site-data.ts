@@ -1,10 +1,10 @@
 export const primaryNavigation = [
-  "Holiday Parks",
-  "Properties",
-  "Offers",
-  "About us",
-  "Contact",
-];
+  { label: "Holiday Parks", href: "/holiday-parks" },
+  { label: "Properties", href: "/#properties" },
+  { label: "Offers", href: "/#offers" },
+  { label: "About us", href: "/#about-us" },
+  { label: "Contact", href: "/#contact" },
+] as const;
 
 export const footerLinks = {
   company: ["About Us", "Contact", "Blog"],

@@ -45,7 +45,14 @@ function FieldIcon({ type }: { type: (typeof searchFields)[number]["icon"] }) {
   );
 }
 
-export function Hero() {
+interface HeroProps {
+  title1: string;
+  title2: string;
+  img: string;
+  description: string;
+}
+
+export function Hero({title1, title2, img, description, } : HeroProps) {
   return (
     <section
       className="hero-motion relative isolate min-h-[620px] overflow-hidden bg-slate-200 sm:min-h-[650px]"
@@ -67,13 +74,12 @@ export function Hero() {
             id="hero-title"
             className="text-4xl font-bold leading-[1.03] tracking-tight sm:text-5xl"
           >
-            Escape to Your Perfect
+            {title1}
             <br />
-            Holiday Retreat
+           {title2}
           </h1>
           <p className="mx-auto mt-4 max-w-md text-[10px] leading-4 text-white/95">
-            Discover premium holiday parks and luxury accommodations across
-            Europe with seamless online booking.
+           {description}
           </p>
         </div>
         <form

@@ -23,6 +23,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 // ==========================================
 // 1. DUMMY JSON DATA
@@ -241,9 +242,11 @@ export default function FeaturedHolidayParks({
 
                   {/* Explore Button */}
                   <div className="p-5 pt-0">
+                    <Link href={"/holiday-parks/1"}>
                     <Button className="w-full bg-[#3B3388] hover:bg-[#2F296D] text-white text-xs font-semibold py-2.5 rounded-sm transition-colors shadow-none cursor-pointer">
                       Explore Park
                     </Button>
+                    </Link>
                   </div>
                 </Card>
               </CarouselItem>

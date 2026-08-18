@@ -61,7 +61,7 @@ export default function WhyChooseNordicHaven({
   data = whyChooseUsData,
 }: WhyChooseUsProps) {
   return (
-    <section className="w-full bg-[#EEF2F6] py-16 px-4 sm:px-6 lg:px-8 font-sans">
+    <section id="about-us" className="w-full bg-[#EEF2F6] py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-12">
         
         {/* Section Header */}

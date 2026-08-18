@@ -36,7 +36,7 @@ export default function NewsletterBanner({
   };
 
   return (
-    <section className="relative w-full min-h-[380px] md:min-h-[420px] flex items-center justify-center overflow-hidden font-sans">
+    <section id="contact" className="relative w-full min-h-[380px] md:min-h-[420px] flex items-center justify-center overflow-hidden font-sans">
       {/* Background Image */}
       <Image
         src={data.backgroundImage}
