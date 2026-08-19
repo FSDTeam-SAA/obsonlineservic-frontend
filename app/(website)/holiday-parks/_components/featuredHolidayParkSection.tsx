@@ -94,7 +94,7 @@ export default function FeaturedHolidayParkSection({
   const [selectedTime, setSelectedTime] = useState("Any Time");
 
   return (
-    <section className="w-full bg-[#F3F7FA] py-12 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className="w-full bg-[#EEF2F6] py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-7">
         
         {/* Top Header Row: Filter Pills (Left) & Result Count (Right) */}

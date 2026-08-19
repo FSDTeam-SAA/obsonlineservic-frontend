@@ -2,10 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-
-// ==========================================
-// 1. JSON DATA CONFIGURATION
-// ==========================================
 export interface ExperienceItem {
   id: string;
   title: string;
@@ -73,12 +69,11 @@ interface HolidayExperiencesProps {
   data?: typeof holidayExperiencesData;
 }
 
-
 export default function HolidayExperiences({
   data = holidayExperiencesData,
-}: HolidayExperiencesProps) {
+}: HolidayExperiencesProps ) {
   return (
-    <section id="offers" className="w-full bg-[#F3F7FA] py-16 px-4 sm:px-6 lg:px-8 font-sans">
+    <section id="offers" className="w-full  py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-12">
         
         {/* Section Header */}
@@ -122,7 +117,6 @@ export default function HolidayExperiences({
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

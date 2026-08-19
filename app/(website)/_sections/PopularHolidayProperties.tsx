@@ -139,7 +139,7 @@ export default function PopularHolidayProperties() {
   }, [selectedCategory]);
 
   return (
-    <section id="properties" className="w-full bg-[#F3F7FA] py-12 px-4 sm:px-6 lg:px-8 font-sans">
+    <section id="properties" className="w-full  py-12 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-8">
         
         {/* Header: Title & Filter Pills */}

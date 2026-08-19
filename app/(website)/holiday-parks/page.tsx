@@ -7,7 +7,7 @@ import PopularHolidayProperties from "../_sections/PopularHolidayProperties";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-white">
       <Reveal>
         <Hero
           title1={"Holiday parks worth"}
@@ -18,10 +18,14 @@ for the way you want to slow down.`}
         />
       </Reveal>
       <Reveal delay={40}><FeaturedHolidayParkSection /></Reveal>
-      <Reveal delay={80}><FeaturedHolidayParks /></Reveal>
-      <Reveal delay={120}>
-        <PopularHolidayProperties />
+      <Reveal delay={80}>
+        <FeaturedHolidayParks backgroundClassName="bg-white" />
       </Reveal>
+      <div className="bg-[#EEF2F6]">
+        <Reveal delay={120}>
+          <PopularHolidayProperties />
+        </Reveal>
+      </div>
     </div>
   );
 };

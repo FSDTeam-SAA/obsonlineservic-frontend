@@ -123,11 +123,13 @@ const amenityIcons = [
 
 export default function FeaturedHolidayParks({
   parks = holidayParksData,
+  backgroundClassName = "bg-[#EEF2F6]",
 }: {
   parks?: HolidayPark[];
+  backgroundClassName?: string;
 }) {
   return (
-    <section className="w-full bg-[#EEF2F6] py-14 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className={`w-full ${backgroundClassName} py-14 px-4 sm:px-6 lg:px-8 font-sans`}>
       <div className="container mx-auto">
         <Carousel
           opts={{

@@ -181,7 +181,7 @@ export default function AvailableHolidayHomes({
   };
 
   return (
-    <section className="w-full bg-[#F3F7FA] py-14 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className="w-full bg-[#EEF2F6] py-14 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-8">
         
         {/* Header Section */}

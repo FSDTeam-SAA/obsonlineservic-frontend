@@ -37,7 +37,7 @@ export default function RetreatHeroBanner({
 
       {/* Dark Dimming Overlay with Bottom Mist / Fog Fade */}
       <div className="absolute inset-0 bg-black/45" />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-[#F3F6FA] opacity-95 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-[#EEF2F6] opacity-95 pointer-events-none" />
 
       {/* Hero Content Section */}
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 text-center text-white flex flex-col items-center justify-center space-y-4">

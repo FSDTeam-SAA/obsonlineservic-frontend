@@ -82,7 +82,7 @@ export default function ResortAmenitiesSection({
   data = resortAmenitiesData,
 }: ResortAmenitiesProps) {
   return (
-    <section className="w-full bg-[#F3F6FA] py-16 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className="w-full bg-[#EEF2F6] py-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="container mx-auto space-y-10">
         
         {/* Section Header */}

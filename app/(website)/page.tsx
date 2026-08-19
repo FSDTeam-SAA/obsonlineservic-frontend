@@ -11,7 +11,7 @@ import { Reveal } from "@/components/reveal";
 
 export default function HomePage() {
   return (
-    <div className="booking-home space-y-[10px]">
+    <div className="booking-home bg-white">
       <Hero 
       title1={"Escape to Your Perfect"}
       title2={" Holiday Retreat"}
